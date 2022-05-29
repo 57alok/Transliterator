@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //Assign variable
         imageView = findViewById(R.id.image_view);
         btOpen = findViewById(R.id.bt_open);
-        //Request for camer permission
+        //Request for camera permission
       if (ContextCompat.checkSelfPermission(MainActivity.this,
               Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
           ActivityCompat.requestPermissions(MainActivity.this,
